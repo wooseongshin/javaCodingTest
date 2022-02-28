@@ -17,6 +17,7 @@ public class 코스스케쥴 {
             if(!dfs(graph,visited,i))
                 return false;
         }
+        System.out.println(1);
         return true;
     }
 
